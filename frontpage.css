@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(13, 7, 20);
+    color: aliceblue;
+    font-family: Inter, 'sans-serif';
+    font-size: 0.8rem;
+}
+.main-div{
+    margin-top: 7rem;
+}
+.minidiv{
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    width:40%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 25, 38);
+    border-radius: 1rem;
+}
+#last_li{
+    padding-bottom: 3rem;
+}
+button{
+    width: 20%;
+    background-color: rgb(158, 92, 224);
+    color: aliceblue;
+    border-radius: 0.3rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 0.15rem solid rgb(158, 92, 224);
+}
+button:hover{
+    background-color:rgb(140, 56, 231) ;
+}
